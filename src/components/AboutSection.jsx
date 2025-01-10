@@ -42,7 +42,7 @@ function AboutSection() {
   return (
     <section
       id="about"
-      className=" min-h-dvh w-full px-4 py-14 sm:px-6 md:px-8 lg:px-10 content-center"
+      className=" min-h-screen overflow-hidden w-full px-4 py-14 sm:px-6 md:px-8 lg:px-10 content-center"
     >
       <div className="mx-auto  w-fit flex flex-col sm:flex-row flex-wrap justify-center gap-10 overflow-hidden">
         <div
