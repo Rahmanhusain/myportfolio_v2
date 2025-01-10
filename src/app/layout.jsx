@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Hey, I'm Rahman Husain",
-  description: "I'm Ritchie, a software engineer Enthusiast with a knack for solving problems and creating seamless digital experiences. Explore my work and let's connect!",
+  description: "I'm Rahman Husain, a software engineering  Enthusiast with a knack for solving problems and creating seamless digital experiences. Explore my work and let's connect!",
 };
 
 export default function RootLayout({ children }) {
