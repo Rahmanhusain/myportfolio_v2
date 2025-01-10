@@ -81,7 +81,7 @@ function HomeSection() {
                */}{" "}
               <Typewriter
                 words={[
-                  "Hi, I'm Rahman Husain, a driven Delhi-based computer science undergraduate passionate about decoding technology and taking on new challenges.",
+                  "Hi, I’m Rahman Husain, a passionate computer science undergraduate from Delhi. I love decoding technology and taking on new challenges with enthusiasm. Always learning, always growing!",
                 ]}
                 loop={5}
                 cursor
