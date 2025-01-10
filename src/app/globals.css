@@ -43,8 +43,8 @@
 .wrapper{
  position: fixed;
   inset: 0;
-  background: center / cover no-repeat url('/images/bgimg1.jpg');
-  transition: background 1s ease-in-out;
+
+
   z-index: -10;
 }
 
@@ -74,6 +74,8 @@ body {
   font-family: 'Livvic',monospace;
 
   background-color: #000000;
+  background: center / cover no-repeat url('/images/bgimg1.jpg');
+    transition: background 1s ease-in-out;
 }
 
 .abc{

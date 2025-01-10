@@ -28,10 +28,10 @@ function PortfolioSection() {
    
         if (triggerRect.bottom <= 0) {
     
-          wrapper.style.background =
+          document.body.style.background =
             "center / cover no-repeat url('/images/bgimg2.jpg')";
         } else {
-          wrapper.style.background =
+          document.body.style.background =
             "center / cover no-repeat url('/images/bgimg1.jpg')";
         }
       } else {
