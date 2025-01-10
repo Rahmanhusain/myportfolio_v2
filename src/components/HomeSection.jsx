@@ -56,8 +56,8 @@ function HomeSection() {
       } flex items-center justify-center lg:px-24 md:px-20 sm:px-10 px-5 transition-colors duration-700 ease-in overflow-hidden`}
     >
       <div className={`shape-container absolute inset-0 overflow-hidden transition-opacity duration-700 ease-in ${showbg ? "opacity-100" : "opacity-0"}`}>
-        <div className="shape z-[1] absolute -left-32 -top-32  opacity-[0.17] lg:w-[30rem] lg:h-[30rem] md:w-[26rem] md:h-[26rem] sm:w-[24rem] sm:h-[24rem] w-[20rem] h-[20rem] " />
-        <div className="shape z-[1] absolute -right-32 -bottom-32 opacity-[0.17] lg:w-[30rem] lg:h-[30rem] md:w-[26rem] md:h-[26rem] sm:w-[24rem] sm:h-[24rem] w-[20rem] h-[20rem]" />
+        <div className="shape z-[1] absolute -left-32 -top-32  opacity-[0.17] lg:w-[33rem] lg:h-[35rem] md:w-[29rem] md:h-[29rem] sm:w-[26rem] sm:h-[26rem] w-[26rem] h-[26rem] " />
+        <div className="shape z-[1] absolute -right-32 -bottom-32 opacity-[0.17] lg:w-[33rem] lg:h-[35rem] md:w-[29rem] md:h-[29rem] sm:w-[26rem] sm:h-[26rem] w-[26rem] h-[26rem]" />
       </div>
 
       <div className="relative text-center lg:text-left flex flex-col lg:flex-row items-center z-10">
