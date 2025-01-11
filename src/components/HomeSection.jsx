@@ -127,7 +127,7 @@ function HomeSection() {
                   "Web Development",
                   "App Development",
                   "Backend Development",
-                  "SEO",
+                  "Figma",
                   "Photography",
                 ]}
                 loop={false} // Use `false` instead of "false" (boolean, not string)
@@ -154,7 +154,7 @@ function HomeSection() {
               "Web Development",
               "App Development",
               "Backend Development",
-              "SEO",
+              "Figma",
               "Photography",
             ]}
             loop={false} // Use `false` instead of "false" (boolean, not string)
