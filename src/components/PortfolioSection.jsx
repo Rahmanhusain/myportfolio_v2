@@ -18,7 +18,7 @@ function PortfolioSection() {
   useEffect(() => {
     const handleScroll = () => {
   
-      const trigger = document.getElementById("skill");
+      const trigger = document.getElementById("services");
       const wrapper = document.getElementById("wrapper");
 
       if (trigger && wrapper) {
@@ -27,7 +27,7 @@ function PortfolioSection() {
         const triggerRect = trigger.getBoundingClientRect();
 
    
-        if (triggerRect.bottom <= 0) {
+        if (triggerRect.top <= 0) {
     
           wrapper.style.background =
             "center / cover no-repeat url('/images/bgimg2.jpg')";
