@@ -31,7 +31,7 @@ function MyResumeComponent() {
   ];
 
   return (
-    <div id="resume" className="mx-auto my-14 overflow-hidden">
+    <div id="resume" className="mx-auto mt-14 overflow-hidden">
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold content text-center">
         My Resume
       </h1>

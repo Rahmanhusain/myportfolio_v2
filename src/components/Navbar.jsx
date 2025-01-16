@@ -44,6 +44,17 @@ function Navbar({isOpen, setIsOpen}) {
             Contact
           </a>
         </li>
+
+        <li className="text-left border-b border-[#ffffff52]">
+          <a
+            href="#services"
+            className="text-white text-2xl block py-4 hover:text-[var(--coloredtext)] rounded-md"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            Services
+          </a>
+        </li>
+
         <li className="text-left ">
           <a
             href=""

@@ -44,7 +44,7 @@ const ContactForm = ({ setIsOpen, isOpen }) => {
             setissending(false);
           }
         }}
-        className={`w-[25rem] max-w-full mx-auto p-3 rounded-lg sm:p-5 overflow-y-auto max-h-[80vh] ${
+        className={`w-[25rem] max-w-full mx-auto p-3 rounded-lg sm:p-5 overflow-y-auto  max-h-[80vh] ${
           !closeanim ? "animate-popInSimple" : "animate-popOutSimple"
         } ${closeanim && "scale-0"}`}
       >

@@ -3,6 +3,7 @@ import ContactPage from "@/components/ContactPage";
 import HomeSection from "@/components/HomeSection";
 import NavWrapper from "@/components/NavWrapper";
 import PortfolioSection from "@/components/PortfolioSection";
+import ServicesSection from "@/components/ServicesSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
      <HomeSection />
      <AboutSection />
      <PortfolioSection />
+{/*      <ServicesSection /> */}
      <ContactPage />
      <div className="flex flex-wrap items-center bg-[#000000] border-t border-gray-700 md:justify-between justify-center select-none">
         <div className="w-full md:w-4/12 px-4 mx-auto text-center">

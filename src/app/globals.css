@@ -9,6 +9,7 @@
   --foreground: #171717;
   /*  --coloredtext: #E1306C; */
   --coloredtext: #e0566b;
+  --coloredtext2: #e0566bbd;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +18,8 @@
     --foreground: #ededed;
   }
 }
+
+
 
 .chivo-mono-font {
   font-family: "Chivo Mono", serif;
@@ -33,12 +36,29 @@
   font-family: "Gajraj One", serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+/* Desktop */
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 7px; /* Wider scrollbar for desktop */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #000;
+    border-radius: 0px; /* Fully rounded track for desktop */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #e0566baa;
+    border-radius: 10px; /* Fully rounded thumb for desktop */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e0566b;
+    border-radius: 50px; /* Fully rounded on hover for desktop */
+  }
 }
+
+
 .wrapper {
   position: fixed;
   width: 100dvw;

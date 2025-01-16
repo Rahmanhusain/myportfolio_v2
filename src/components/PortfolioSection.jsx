@@ -5,6 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import MyResumeComponent from "./MyResumeComponent";
 import MyProjectsComponent from "./MyProjectsComponent";
+import ServicesComponent from "./ServicesComponent";
 
 function PortfolioSection() {
   useEffect(() => {
@@ -53,6 +54,7 @@ function PortfolioSection() {
     <section id="portfolio" className="lg:px-24 md:px-20 sm:px-10 px-5 pt-10">
       <SkillsComponent />
       <MyResumeComponent />
+      <ServicesComponent />
       <MyProjectsComponent />
     </section>
   );
