@@ -36,7 +36,7 @@ function ServicesComponent() {
   ];
 
   return (
-    <section id="services" className="mx-auto py-14 overflow-hidden">
+    <section id="services" className="mx-auto pt-14 overflow-hidden">
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold content text-center">
         Services
       </h1>
