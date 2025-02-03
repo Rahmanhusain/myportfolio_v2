@@ -16,15 +16,26 @@ function MyProjectsComponent() {
       statmessege: "Under Planning",
     },
     {
+      title: "Sai Handlooms & Furnishers- A Business Website",
+      description:
+        "Developed a professional website for Sai Handlooms & Furnishers, a leading home furnishing brand in Gurugram celebrating 22 years of excellence.",
+      imgURL: "/images/2.2.png",
+      githublink: "",
+      livelink: "https://revibeweb.vercel.app/",
+      indevDesc:
+        "",
+      statmessege: "",
+    },
+    {
       title: "A Chrome Extension",
       description:
         "A Chrome Extension to make the chrome appearance more attractive and track screen time.",
-      imgURL: "/images/2.png",
+      imgURL: "/images/2.webp",
       githublink: "",
-      livelink: "",
+      livelink: "https://revibeweb.vercel.app/",
       indevDesc:
-        "The Application is under Development Expected by 3rd week of january 2025.",
-      statmessege: "Under Development",
+        "",
+      statmessege: "",
     },
     {
       title: "Compresso.io- An image Compressor",
