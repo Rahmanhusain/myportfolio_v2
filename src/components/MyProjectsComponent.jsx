@@ -16,14 +16,23 @@ function MyProjectsComponent() {
       statmessege: "Under Planning",
     },
     {
+      title: "GTB4Love- A dating app of GTB4CEC",
+      description:
+        "Developed a dating app for GTB4CEC for fun and learning purposes.",
+      imgURL: "/images/2.1.jpeg",
+      githublink: "",
+      livelink: "https://gtb4love.vercel.app/",
+      indevDesc: "",
+      statmessege: "",
+    },
+    {
       title: "Sai Handlooms & Furnishers- A Business Website",
       description:
         "Developed a professional website for Sai Handlooms & Furnishers, a leading home furnishing brand in Gurugram celebrating 22 years of excellence.",
       imgURL: "/images/2.2.png",
       githublink: "",
       livelink: "https://revibeweb.vercel.app/",
-      indevDesc:
-        "",
+      indevDesc: "",
       statmessege: "",
     },
     {
@@ -33,8 +42,7 @@ function MyProjectsComponent() {
       imgURL: "/images/2.webp",
       githublink: "",
       livelink: "https://revibeweb.vercel.app/",
-      indevDesc:
-        "",
+      indevDesc: "",
       statmessege: "",
     },
     {
@@ -62,7 +70,8 @@ function MyProjectsComponent() {
       description:
         "Developed with Java and MySQL, featuring an admin login interface with password recovery by Mail.",
       imgURL: "/images/6.png",
-      githublink: "https://github.com/Rahmanhusain/Student-Management-Desktop-Application",
+      githublink:
+        "https://github.com/Rahmanhusain/Student-Management-Desktop-Application",
       livelink:
         "https://github.com/Rahmanhusain/Student-Management-Desktop-Application/releases/tag/Stable",
       indevDesc: "",
