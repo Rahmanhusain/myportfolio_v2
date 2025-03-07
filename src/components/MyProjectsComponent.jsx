@@ -31,7 +31,7 @@ function MyProjectsComponent() {
         "Developed a professional website for Sai Handlooms & Furnishers, a leading home furnishing brand in Gurugram celebrating 22 years of excellence.",
       imgURL: "/images/2.2.png",
       githublink: "",
-      livelink: "https://revibeweb.vercel.app/",
+      livelink: "https://saihandloomsandfurnishers.in/",
       indevDesc: "",
       statmessege: "",
     },
