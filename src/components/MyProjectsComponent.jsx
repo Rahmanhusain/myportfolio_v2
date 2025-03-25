@@ -16,6 +16,16 @@ function MyProjectsComponent() {
       statmessege: "Under Planning",
     },
     {
+      title: ".Rizzz Lang – A fun interpreted programming language written in Python.",
+      description:
+        "Developed A fun interpreted programming language written in Python can perform basic operations. It is a fun project to learn about how programming languages work.",
+      imgURL: "/images/rizzz.png",
+      githublink: "",
+      livelink: "https://rizzweb.netlify.app/",
+      indevDesc: "",
+      statmessege: "",
+    },
+    {
       title: "GTB4Love- A dating app of GTB4CEC",
       description:
         "Developed a dating app for GTB4CEC for fun and learning purposes.",
